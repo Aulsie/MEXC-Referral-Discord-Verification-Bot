@@ -21,6 +21,7 @@ Below are placeholder screenshot files for the verification workflow. Update the
 
 ### User screenshots
 - 1. MEXC referral verification panel
+
 ![1. MEXC referral verification panel](images/01-referral-panel.png) 
 
 - 2. Modal where users input their MEXC UID
