@@ -235,7 +235,7 @@ Message sent to the approved logs channel after successful verification.
 ### Verified Referral List
 Display of `/vreferral verified` command showing verified referrals.
 
-![Verified Referral List](showcase/images/10-vreferral-verified.png)
+![Verified Referral List](images/10-vreferral-verified.png)
 
 ### User Verification Check
 Result of `/vcheck [user]` command displaying a user's verification status.
