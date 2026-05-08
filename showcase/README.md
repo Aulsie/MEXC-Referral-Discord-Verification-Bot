@@ -21,9 +21,9 @@ Below are placeholder screenshot files for the verification workflow. Update the
 
 ### User screenshots
 
-![1. MEXC referral verification panel](images/01-referral-panel.png)
+ ![1. MEXC referral verification panel](images/01-referral-panel.png)
 - 1. MEXC referral verification panel
-![2. Modal where users input their MEXC UID](images/02-verify-modal.png)
+ ![2. Modal where users input their MEXC UID](images/02-verify-modal.png)
 - 2. Modal where users input their MEXC UID
 ![3. UID not under the referral](images/03-invalid-uid.png)
 - 3. You cannot be verified if the UID you entered is not in the referral
