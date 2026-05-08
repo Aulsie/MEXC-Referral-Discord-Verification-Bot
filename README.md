@@ -187,42 +187,42 @@ The API returns referral data with the following keys (15 keys found):
 ### Verification Panel
 Main verification panel where users can start the MEXC referral verification process.
 
-![Verification Panel](images/01-referral-panel.png)
+![Verification Panel](showcase/images/01-referral-panel.png)
 
 ### UID Input Modal
 Modal where users enter their MEXC UID for verification.
 
-![UID Input Modal](images/02-verify-modal.png)
+![UID Input Modal](showcase/images/02-verify-modal.png)
 
 ### Invalid UID Result
 Shown when the entered UID is not found under the configured referral list.
 
-![Invalid UID Result](images/03-invalid-uid.png)
+![Invalid UID Result](showcase/images/03-invalid-uid.png)
 
 ### Successful Verification
 User UID was found in the referral system and the verified role was assigned successfully.
 
-![Successful Verification](images/04-uid-found.png)
+![Successful Verification](showcase/images/04-uid-found.png)
 
 ### Approved User DM
 Direct message automatically sent to users after being verified.
 
-![Approved User DM](images/05-dm-approved.png)
+![Approved User DM](showcase/images/05-dm-approved.png)
 
 ### Referral Approved Confirmation
 Confirmation message shown after the referral verification is approved.
 
-![Referral Approved Confirmation](images/06-referral-approved.png)
+![Referral Approved Confirmation](showcase/images/06-referral-approved.png)
 
 ### Pending Review Notice
 Displayed when auto-approve is disabled and the request is sent for manual staff review.
 
-![Pending Review Notice](images/07-pending-review.png)
+![Pending Review Notice](showcase/images/07-pending-review.png)
 
 ### Review Action Controls
 Buttons and controls available for staff handling pending verification requests.
 
-![Review Action Controls](images/08-review-controls.png)
+![Review Action Controls](showcase/images/08-review-controls.png)
 
 
 # Staff Features
@@ -230,17 +230,17 @@ Buttons and controls available for staff handling pending verification requests.
 ### Approved Logs Channel
 Message sent to the approved logs channel after successful verification.
 
-![Approved Logs Channel](images/09-approved-channel.png)
+![Approved Logs Channel](showcase/images/09-approved-channel.png)
 
 ### Verified Referral List
 Display of `/vreferral verified` command showing verified referrals.
 
-![Verified Referral List](images/10-vreferral-verified.png)
+![Verified Referral List](showcase/images/10-vreferral-verified.png)
 
 ### User Verification Check
 Result of `/vcheck [user]` command displaying a user's verification status.
 
-![User Verification Check](images/11-vcheck-user.png)
+![User Verification Check](showcase/images/11-vcheck-user.png)
 
 
 # Admin Features
@@ -248,12 +248,12 @@ Result of `/vcheck [user]` command displaying a user's verification status.
 ### Admin Commands Overview
 Overview of available administrator commands.
 
-![Admin Commands Overview](images/12-admin-commands.png)
+![Admin Commands Overview](showcase/images/12-admin-commands.png)
 
 ### Unauthorized CSV Export Attempt
 Error shown when an unauthorized admin attempts to export CSV data.
 
-![Unauthorized CSV Export Attempt](images/13-export-csv-blocked.png)
+![Unauthorized CSV Export Attempt](showcase/images/13-export-csv-blocked.png)
 
 
 # Owner Features
@@ -261,27 +261,27 @@ Error shown when an unauthorized admin attempts to export CSV data.
 ### Instant CSV Export
 Instant export feature available only to the owner or trusted users.
 
-![Instant CSV Export](images/14-insta-export.png)
+![Instant CSV Export](showcase/images/14-insta-export.png)
 
 ### MEXC API Setup - Page 1
 First page of the `/vsetmexcapi` setup interface.
 
-![MEXC API Setup Page 1](images/15-vsetmexcapi-page1.png)
+![MEXC API Setup Page 1](showcase/images/15-vsetmexcapi-page1.png)
 
 ### MEXC API Setup - Page 2
 Second page of the `/vsetmexcapi` setup interface.
 
-![MEXC API Setup Page 2](images/16-vsetmexcapi-page2.png)
+![MEXC API Setup Page 2](showcase/images/16-vsetmexcapi-page2.png)
 
 ### MEXC API Setup Modal
 Modal used to input API credentials and configuration.
 
-![MEXC API Setup Modal](images/17-vsetmexcapi-modal.png)
+![MEXC API Setup Modal](showcase/images/17-vsetmexcapi-modal.png)
 
 ### MEXC API Setup - Page 3
 Final page of the `/vsetmexcapi` setup process.
 
-![MEXC API Setup Page 3](images/18-vsetmexcapi-page3.png)
+![MEXC API Setup Page 3](showcase/images/18-vsetmexcapi-page3.png)
 
 
 # Manual Review System
@@ -289,12 +289,12 @@ Final page of the `/vsetmexcapi` setup process.
 ### Staff Review Channels
 Dedicated channels used by staff for handling verification reviews.
 
-![Staff Review Channels](images/19-staff-review-channels.png)
+![Staff Review Channels](showcase/images/19-staff-review-channels.png)
 
 ### Verification Sent for Review
 Verification request being forwarded to the review queue.
 
-![Verification Sent for Review](images/20-sent-staff-review.png)
+![Verification Sent for Review](showcase/images/20-sent-staff-review.png)
 
 
 # Pending Review Actions
@@ -302,17 +302,17 @@ Verification request being forwarded to the review queue.
 ### Verify or Deny Request
 Staff members can approve or deny verification requests directly from the pending review message.
 
-![Verify or Deny Request](images/21-pending-actions.png)
+![Verify or Deny Request](showcase/images/21-pending-actions.png)
 
 ### Create Interview VC
 Option to create a temporary voice channel for interviewing the applicant.
 
-![Create Interview VC](images/22-create-vc.png)
+![Create Interview VC](showcase/images/22-create-vc.png)
 
 ### Applicant DM Notifications
 DM notifications sent to the applicant regarding interview VC actions.
 
-![Applicant DM Notifications](images/23-vc-removed.png)
+![Applicant DM Notifications](showcase/images/23-vc-removed.png)
 
 
 # Verified User Features
@@ -320,6 +320,5 @@ DM notifications sent to the applicant regarding interview VC actions.
 ### User Verification Information
 Verified users can view their linked MEXC account information using `/vmyinfo`.
 
-![User Verification Information](images/24-vmyinfo.png)
-
+![User Verification Information](showcase/images/24-vmyinfo.png)
 
