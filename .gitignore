@@ -1,0 +1,13 @@
+.env
+database.db
+tempCodeRunnerFile.py
+generate_image_placeholders.py
+config.json
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env.*
+.DS_Store
+.vscode/
+.venv/
