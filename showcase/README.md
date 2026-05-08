@@ -19,96 +19,121 @@ It explains the core flow, integration points, and the MEXC referral API call wi
 
 Below are placeholder screenshot files for the verification workflow. Update these image files in `showcase/images/` with your real screenshots.
 
-### User screenshots
-- 1. MEXC referral verification panel
+## User Screenshots
 
-![1. MEXC referral verification panel](images/01-referral-panel.png) 
+### MEXC referral verification panel
 
-- 2. Modal where users input their MEXC UID
- ![2. Modal where users input their MEXC UID](images/02-verify-modal.png) 
+![MEXC referral verification panel](images/01-referral-panel.png)
 
-- 3. You cannot be verified if the UID you entered is not in the referral
-![3. UID not under the referral](images/03-invalid-uid.png) 
+### Modal where users input their MEXC UID
 
-- 4. MEXC UID was found in the referral and assigned verified role
-![4. UID found in referral](images/04-uid-found.png)
+![Modal where users input their MEXC UID](images/02-verify-modal.png)
 
-- 5. DM sent to the user who got approved  
-![5. Approved user DM](images/05-dm-approved.png)
+### You cannot be verified if the UID entered is not in the referral list
 
-- 6. Referral approved confirmation  
-![6. Referral approved message](images/06-referral-approved.png)
+![UID not under the referral](images/03-invalid-uid.png)
 
-- 7. Sent for staff review if auto-approve is disabled
-![7. Pending review](images/07-pending-review.png)
+### MEXC UID was found in the referral and assigned the verified role
 
-- 8. Staff review controls available in the pending message
-![8. Review controls](images/08-review-controls.png)
+![UID found in referral](images/04-uid-found.png)
 
+### DM sent to the approved user
 
-### Staff screenshots
+![Approved user DM](images/05-dm-approved.png)
 
-- 9. Sent to approved channel
-![9. Approved channel message](images/09-approved-channel.png)
+### Referral approved confirmation
 
-- 10. `/vreferral verified` display
-![10. `/vreferral verified` display](images/10-vreferral-verified.png)
+![Referral approved message](images/06-referral-approved.png)
 
-- 11. `/vcheck [user]`   
-![11. `/vcheck [user]` result](images/11-vcheck-user.png)
+### Sent for staff review if auto-approve is disabled
+
+![Pending review](images/07-pending-review.png)
+
+### Staff review controls available in the pending message
+
+![Review controls](images/08-review-controls.png)
 
 
-### Admin screenshots
+## Staff Screenshots
 
-- 12. Admin commands overview
-![12. Admin commands](images/12-admin-commands.png)
+### Sent to approved channel
 
-- 13. Admin cannot export CSV when unauthorized
-![13. Export CSV blocked](images/13-export-csv-blocked.png)
+![Approved channel message](images/09-approved-channel.png)
 
+### `/vreferral verified` display
 
-### Owner screenshots
+![`/vreferral verified` display](images/10-vreferral-verified.png)
 
-- 14. Insta export available to owner/trusted users
-![14. Instant export](images/14-insta-export.png)
+### `/vcheck [user]` result
 
-- 15. `/vsetmexcapi` page 1 
-![15. `/vsetmexcapi` page 1](images/15-vsetmexcapi-page1.png)
-
-- 16. `/vsetmexcapi` page 2 
-![16. `/vsetmexcapi` page 2](images/16-vsetmexcapi-page2.png)
-
-- 17. `/vsetmexcapi` modal  
-![17. `/vsetmexcapi` modal](images/17-vsetmexcapi-modal.png)
-
-- 18. `/vsetmexcapi` page 3    
-![18. `/vsetmexcapi` page 3](images/18-vsetmexcapi-page3.png)
+![`/vcheck [user]` result](images/11-vcheck-user.png)
 
 
-### Auto-approve disabled flow
+## Admin Screenshots
 
-![19. Staff review channels](images/19-staff-review-channels.png)
-- 19. Channels for staff reviews
-      
-![20. Sent for staff review](images/20-sent-staff-review.png)
-- 20. Sent for staff review
+### Admin commands overview
 
-### Pending review actions
+![Admin commands](images/12-admin-commands.png)
 
-![21. Pending actions](images/21-pending-actions.png)
-- 21. In pending channel, staff can decide whether to verify or deny
-      
-![22. Create VC](images/22-create-vc.png)
-- 22. Create VC to interview the applicant (Applicant view)
-      
-![23. DMs](images/23-vc-removed.png)
-- 23. DMs to applicant (Applicant view)
+### Admin cannot export CSV when unauthorized
+
+![Export CSV blocked](images/13-export-csv-blocked.png)
 
 
-### User Once Verified
+## Owner Screenshots
 
-- 24. Verified users can check their MEXC info
-![24. My Info](images/24-vmyinfo.png)
+### Instant export available to owner or trusted users
+
+![Instant export](images/14-insta-export.png)
+
+### `/vsetmexcapi` page 1
+
+![`/vsetmexcapi` page 1](images/15-vsetmexcapi-page1.png)
+
+### `/vsetmexcapi` page 2
+
+![`/vsetmexcapi` page 2](images/16-vsetmexcapi-page2.png)
+
+### `/vsetmexcapi` modal
+
+![`/vsetmexcapi` modal](images/17-vsetmexcapi-modal.png)
+
+### `/vsetmexcapi` page 3
+
+![`/vsetmexcapi` page 3](images/18-vsetmexcapi-page3.png)
+
+
+## Auto-Approve Disabled Flow
+
+### Channels for staff reviews
+
+![Staff review channels](images/19-staff-review-channels.png)
+
+### Sent for staff review
+
+![Sent for staff review](images/20-sent-staff-review.png)
+
+
+## Pending Review Actions
+
+### Staff can verify or deny applications from the pending channel
+
+![Pending actions](images/21-pending-actions.png)
+
+### Create a VC to interview the applicant (Applicant view)
+
+![Create VC](images/22-create-vc.png)
+
+### DMs sent to the applicant (Applicant view)
+
+![VC removed](images/23-vc-removed.png)
+
+
+## User Once Verified
+
+### Verified users can check their MEXC information
+
+![My Info](images/24-vmyinfo.png)
 
 ---
 
