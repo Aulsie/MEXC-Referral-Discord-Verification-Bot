@@ -1,4 +1,4 @@
-# Discord Verification via MEXC Referral API
+# Discord Verification via MEXC Referral
 
 This folder contains an overview of the verification bot.
 It explains the core flow, integration points, and the MEXC referral API call without exposing the full source.
