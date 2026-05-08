@@ -20,66 +20,69 @@ It explains the core flow, integration points, and the MEXC referral API call wi
 Below are placeholder screenshot files for the verification workflow. Update these image files in `showcase/images/` with your real screenshots.
 
 ### User screenshots
-
-![1. MEXC referral verification panel](images/01-referral-panel.png) 
 - 1. MEXC referral verification panel
+![1. MEXC referral verification panel](images/01-referral-panel.png) 
 
- ![2. Modal where users input their MEXC UID](images/02-verify-modal.png) 
 - 2. Modal where users input their MEXC UID
-     
-![3. UID not under the referral](images/03-invalid-uid.png) 
+ ![2. Modal where users input their MEXC UID](images/02-verify-modal.png) 
+
 - 3. You cannot be verified if the UID you entered is not in the referral
-     
-![4. UID found in referral](images/04-uid-found.png)
+![3. UID not under the referral](images/03-invalid-uid.png) 
+
 - 4. MEXC UID was found in the referral and assigned verified role
-     
+![4. UID found in referral](images/04-uid-found.png)
+
+- 5. DM sent to the user who got approved  
 ![5. Approved user DM](images/05-dm-approved.png)
-- 5. DM sent to the user who got approved
-     
+
+- 6. Referral approved confirmation  
 ![6. Referral approved message](images/06-referral-approved.png)
-- 6. Referral approved confirmation
-     
-![7. Pending review](images/07-pending-review.png)
+
 - 7. Sent for staff review if auto-approve is disabled
-     
-![8. Review controls](images/08-review-controls.png)
+![7. Pending review](images/07-pending-review.png)
+
 - 8. Staff review controls available in the pending message
+![8. Review controls](images/08-review-controls.png)
+
 
 ### Staff screenshots
 
-![9. Approved channel message](images/09-approved-channel.png)
 - 9. Sent to approved channel
-      
-![10. `/vreferral verified` display](images/10-vreferral-verified.png)
+![9. Approved channel message](images/09-approved-channel.png)
+
 - 10. `/vreferral verified` display
-      
+![10. `/vreferral verified` display](images/10-vreferral-verified.png)
+
+- 11. `/vcheck [user]`   
 ![11. `/vcheck [user]` result](images/11-vcheck-user.png)
-- 11. `/vcheck [user]`
+
 
 ### Admin screenshots
 
-![12. Admin commands](images/12-admin-commands.png)
 - 12. Admin commands overview
-      
-![13. Export CSV blocked](images/13-export-csv-blocked.png)
+![12. Admin commands](images/12-admin-commands.png)
+
 - 13. Admin cannot export CSV when unauthorized
+![13. Export CSV blocked](images/13-export-csv-blocked.png)
+
 
 ### Owner screenshots
 
-![14. Instant export](images/14-insta-export.png)
 - 14. Insta export available to owner/trusted users
-      
+![14. Instant export](images/14-insta-export.png)
+
+- 15. `/vsetmexcapi` page 1 
 ![15. `/vsetmexcapi` page 1](images/15-vsetmexcapi-page1.png)
-- 15. `/vsetmexcapi` page 1
-      
+
+- 16. `/vsetmexcapi` page 2 
 ![16. `/vsetmexcapi` page 2](images/16-vsetmexcapi-page2.png)
-- 16. `/vsetmexcapi` page 2
-      
+
+- 17. `/vsetmexcapi` modal  
 ![17. `/vsetmexcapi` modal](images/17-vsetmexcapi-modal.png)
-- 17. `/vsetmexcapi` modal
-      
+
+- 18. `/vsetmexcapi` page 3    
 ![18. `/vsetmexcapi` page 3](images/18-vsetmexcapi-page3.png)
-- 18. `/vsetmexcapi` page 3
+
 
 ### Auto-approve disabled flow
 
@@ -103,8 +106,9 @@ Below are placeholder screenshot files for the verification workflow. Update the
 
 ### User Once Verified
 
-![24. My Info](images/24-vmyinfo.png)
 - 24. Verified users can check their MEXC info
+![24. My Info](images/24-vmyinfo.png)
+
 ---
 
 ## Flow summary
