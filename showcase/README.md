@@ -19,121 +19,145 @@ It explains the core flow, integration points, and the MEXC referral API call wi
 
 Below are placeholder screenshot files for the verification workflow. Update these image files in `showcase/images/` with your real screenshots.
 
-## User Screenshots
+# User Flow
 
-### MEXC referral verification panel
+### Verification Panel
+Main verification panel where users can start the MEXC referral verification process.
 
-![MEXC referral verification panel](images/01-referral-panel.png)
+![Verification Panel](images/01-referral-panel.png)
 
-### Modal where users input their MEXC UID
+### UID Input Modal
+Modal where users enter their MEXC UID for verification.
 
-![Modal where users input their MEXC UID](images/02-verify-modal.png)
+![UID Input Modal](images/02-verify-modal.png)
 
-### You cannot be verified if the UID entered is not in the referral list
+### Invalid UID Result
+Shown when the entered UID is not found under the configured referral list.
 
-![UID not under the referral](images/03-invalid-uid.png)
+![Invalid UID Result](images/03-invalid-uid.png)
 
-### MEXC UID was found in the referral and assigned the verified role
+### Successful Verification
+User UID was found in the referral system and the verified role was assigned successfully.
 
-![UID found in referral](images/04-uid-found.png)
+![Successful Verification](images/04-uid-found.png)
 
-### DM sent to the approved user
+### Approved User DM
+Direct message automatically sent to users after being verified.
 
-![Approved user DM](images/05-dm-approved.png)
+![Approved User DM](images/05-dm-approved.png)
 
-### Referral approved confirmation
+### Referral Approved Confirmation
+Confirmation message shown after the referral verification is approved.
 
-![Referral approved message](images/06-referral-approved.png)
+![Referral Approved Confirmation](images/06-referral-approved.png)
 
-### Sent for staff review if auto-approve is disabled
+### Pending Review Notice
+Displayed when auto-approve is disabled and the request is sent for manual staff review.
 
-![Pending review](images/07-pending-review.png)
+![Pending Review Notice](images/07-pending-review.png)
 
-### Staff review controls available in the pending message
+### Review Action Controls
+Buttons and controls available for staff handling pending verification requests.
 
-![Review controls](images/08-review-controls.png)
-
-
-## Staff Screenshots
-
-### Sent to approved channel
-
-![Approved channel message](images/09-approved-channel.png)
-
-### `/vreferral verified` display
-
-![`/vreferral verified` display](images/10-vreferral-verified.png)
-
-### `/vcheck [user]` result
-
-![`/vcheck [user]` result](images/11-vcheck-user.png)
+![Review Action Controls](images/08-review-controls.png)
 
 
-## Admin Screenshots
+# Staff Features
 
-### Admin commands overview
+### Approved Logs Channel
+Message sent to the approved logs channel after successful verification.
 
-![Admin commands](images/12-admin-commands.png)
+![Approved Logs Channel](images/09-approved-channel.png)
 
-### Admin cannot export CSV when unauthorized
+### Verified Referral List
+Display of `/vreferral verified` command showing verified referrals.
 
-![Export CSV blocked](images/13-export-csv-blocked.png)
+![Verified Referral List](images/10-vreferral-verified.png)
 
+### User Verification Check
+Result of `/vcheck [user]` command displaying a user's verification status.
 
-## Owner Screenshots
-
-### Instant export available to owner or trusted users
-
-![Instant export](images/14-insta-export.png)
-
-### `/vsetmexcapi` page 1
-
-![`/vsetmexcapi` page 1](images/15-vsetmexcapi-page1.png)
-
-### `/vsetmexcapi` page 2
-
-![`/vsetmexcapi` page 2](images/16-vsetmexcapi-page2.png)
-
-### `/vsetmexcapi` modal
-
-![`/vsetmexcapi` modal](images/17-vsetmexcapi-modal.png)
-
-### `/vsetmexcapi` page 3
-
-![`/vsetmexcapi` page 3](images/18-vsetmexcapi-page3.png)
+![User Verification Check](images/11-vcheck-user.png)
 
 
-## Auto-Approve Disabled Flow
+# Admin Features
 
-### Channels for staff reviews
+### Admin Commands Overview
+Overview of available administrator commands.
 
-![Staff review channels](images/19-staff-review-channels.png)
+![Admin Commands Overview](images/12-admin-commands.png)
 
-### Sent for staff review
+### Unauthorized CSV Export Attempt
+Error shown when an unauthorized admin attempts to export CSV data.
 
-![Sent for staff review](images/20-sent-staff-review.png)
-
-
-## Pending Review Actions
-
-### Staff can verify or deny applications from the pending channel
-
-![Pending actions](images/21-pending-actions.png)
-
-### Create a VC to interview the applicant (Applicant view)
-
-![Create VC](images/22-create-vc.png)
-
-### DMs sent to the applicant (Applicant view)
-
-![VC removed](images/23-vc-removed.png)
+![Unauthorized CSV Export Attempt](images/13-export-csv-blocked.png)
 
 
-## User Once Verified
+# Owner Features
 
-### Verified users can check their MEXC information
+### Instant CSV Export
+Instant export feature available only to the owner or trusted users.
 
-![My Info](images/24-vmyinfo.png)
+![Instant CSV Export](images/14-insta-export.png)
+
+### MEXC API Setup - Page 1
+First page of the `/vsetmexcapi` setup interface.
+
+![MEXC API Setup Page 1](images/15-vsetmexcapi-page1.png)
+
+### MEXC API Setup - Page 2
+Second page of the `/vsetmexcapi` setup interface.
+
+![MEXC API Setup Page 2](images/16-vsetmexcapi-page2.png)
+
+### MEXC API Setup Modal
+Modal used to input API credentials and configuration.
+
+![MEXC API Setup Modal](images/17-vsetmexcapi-modal.png)
+
+### MEXC API Setup - Page 3
+Final page of the `/vsetmexcapi` setup process.
+
+![MEXC API Setup Page 3](images/18-vsetmexcapi-page3.png)
+
+
+# Manual Review System
+
+### Staff Review Channels
+Dedicated channels used by staff for handling verification reviews.
+
+![Staff Review Channels](images/19-staff-review-channels.png)
+
+### Verification Sent for Review
+Verification request being forwarded to the review queue.
+
+![Verification Sent for Review](images/20-sent-staff-review.png)
+
+
+# Pending Review Actions
+
+### Verify or Deny Request
+Staff members can approve or deny verification requests directly from the pending review message.
+
+![Verify or Deny Request](images/21-pending-actions.png)
+
+### Create Interview VC
+Option to create a temporary voice channel for interviewing the applicant.
+
+![Create Interview VC](images/22-create-vc.png)
+
+### Applicant DM Notifications
+DM notifications sent to the applicant regarding interview VC actions.
+
+![Applicant DM Notifications](images/23-vc-removed.png)
+
+
+# Verified User Features
+
+### User Verification Information
+Verified users can view their linked MEXC account information using `/vmyinfo`.
+
+![User Verification Information](images/24-vmyinfo.png)
 
 ---
 
