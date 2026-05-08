@@ -321,4 +321,3 @@ DM notifications sent to the applicant regarding interview VC actions.
 Verified users can view their linked MEXC account information using `/vmyinfo`.
 
 ![User Verification Information](showcase/images/24-vmyinfo.png)
-
