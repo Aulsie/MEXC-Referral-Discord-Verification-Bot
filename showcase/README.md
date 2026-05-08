@@ -79,10 +79,14 @@ Below are placeholder screenshot files for the verification workflow. Update the
 - ![21. Pending actions](images/21-pending-actions.png)
   21. In pending channel, staff can decide whether to verify or deny
 - ![22. Create VC](images/22-create-vc.png)
-  22. Create VC to interview the applicant
-- ![23. VC removed](images/23-vc-removed.png)
-  23. Interview VC disappears once approved or denied
+  22. Create VC to interview the applicant (Applicant view)
+- ![23. DMs](images/23-vc-removed.png)
+  23. DMs to applicant (Applicant view)
 
+
+### User Once Verified
+- ![24. My Info](images/24-vmyinfo.png)
+  24. Verified users can check their MEXC info
 ---
 
 ## Flow summary
@@ -246,4 +250,5 @@ The API returns referral data with the following keys (15 keys found):
 
 - This repo is a public showcase of a Discord verification via MEXC Referral.
 - What is shared here is enough to understand the API integration, configuration, and bot behavior.
+- Minor bugs may exist – feel free to modify and improve it.
 
